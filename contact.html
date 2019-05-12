@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <h3>Address:</h3>
+    <p>C4C/378, Janak Puri, New Delhi - 110058</p>
+    <br>
+    <h3>Phone No:</h3>
+    <p>+91-9910544434</p>
+    <br>
+    <h3>Email:</h3>
+    <p><a href="mailto:lovevashista01@gmial.com">LoveVashista01@gmail.com</a></p>
+    <br>
+    <h3>Enter Details:</h3>
+    <form action="mailto:info@love.com?subject=Feedback_Form" method="post" enctype="text/plain">
+      <label>Name: </label>
+      <input type="text" name="yourName" value="">
+      <br>
+      <!-- <input type="color" name="" value=""><br>
+      <label>Do you want to signup for the email list?</label>
+      <input type="checkbox" name="" value="">
+      <input type="password" name="" value=""> -->
+      <label>Email: </label>
+      <input type="email" name="yourEmail" value="">
+      <!-- Here we are using email type instead of "text" type, since using this will perform all the validations related to email value-->
+      <!-- <label>Password: </label>
+      <input type="password" name="" value="">
+      <br> -->
+      <br>
+      <label>Your Message: </label><br>
+      <textarea name="yourMessage" rows="8" cols="26"></textarea>
+      <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
